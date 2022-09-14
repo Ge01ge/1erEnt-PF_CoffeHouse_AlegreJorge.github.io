@@ -13,7 +13,7 @@ const stock = [
     {nombre:"grano Robusto ", precio:300, id:2,  calidCantidad:"(100gr) calidad Premium"},
     {nombre:"grano Arabico ", precio:150, id:3,  calidCantidad: " (100gr) calidad Premium"},
 ]
-stock.push(new Producto("nesCafe ", 700, 4, '500gr',))
+stock.push(new Producto("NesCafe ", 700, 4, '500gr',))
 stock.push(new Producto("3 Hermanos ", 800, 5, "500gr",))
 stock.push(new Producto("Batidor de Cafe" ,700, 6, "Unidad", ))
 stock.push(new Producto("set taza de cafe Blanca ", 1800, 7, "6 Unidades", ))
@@ -45,11 +45,6 @@ no
 }
 
 if(option == "si"){
-// 	let producto = Number(prompt(`Ingrese el Id del producto`));
-// 	let cantidad = parseInt(prompt(`Ingrese la cantidad que desea comprar`));
-// 	let precio = 0 
-
-// carrito.push({producto,cantidad,precio})
 
 function sendCarrito() {
     let productoId = Number(prompt('ID producto:'))
