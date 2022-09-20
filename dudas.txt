@@ -1,0 +1,27 @@
+el archivo: 1erEntPF.js es lo que entrege con mi logica
+el archivo: corregido.js esta la devolucion y sujerencias
+y en el archivo: enproceso.js es lo actual 
+
+
+sale el saludo inicial, despues la lista de productos y despues me sale este alert: desea comprar algo: si, no
+si pongo: SI,Si,si… o NO,No,no… o cualquier cosa (vuelve a pedir si qro comprar algo)… solo caundo pongo cancelar sale el alert
+
+entiendo q separo los grupos de respuestas en funciones isYes o isNo… bien, 
+despues viene el promt option1 donde guardar ese si o no
+
+while (!isValidYesNo(option1)) {
+
+option1 = prompt(`Desea comprar algo: si, no.`);
+
+}
+
+ese while no lo entiendo… (!is…) el signo! ¿es para indicar distinto o important?…
+calculo que si es para indicar que es distinto a la validación vuelvo a tirar el alert si desea comprar algo (como forzando un SI o No)
+
+pero entonces no deberia haber un while (isNo(option1)) {
+
+>>con algo asi como un>> 
+alert (gracias por visiatrnos… vuelva pronto)… y cortar }
+
+y lo otro en que momento se ejecuta el while(isYes){} porque hasta ahora estoy atorado en el bucle de comprar o no comprar
+
